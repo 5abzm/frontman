@@ -48,7 +48,7 @@ let camera = new THREE.PerspectiveCamera(
   10000
 );
 let cameraTarget = new THREE.Vector3(0, 0, 0);
-//===================================================== add Group
+
 group = new THREE.Group();
 scene.add(group);
 //===================================================== add Controls
