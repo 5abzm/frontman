@@ -25,7 +25,7 @@ var exitFullscreen = function(ele) {
     console.log("Fullscreen API is not supported.");
   }
 };
-//===================================================== add canvas
+
 let renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setClearColor(0xd8e7ff, 0);
