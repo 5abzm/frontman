@@ -38,9 +38,7 @@ window.addEventListener("resize", function() {
   camera.aspect = width / height;
   camera.updateProjectionMatrix();
 });
-//===================================================== add Scene
-let scene = new THREE.Scene();
-//===================================================== add Camera
+
 let camera = new THREE.PerspectiveCamera(
   45,
   window.innerWidth / window.innerHeight,
