@@ -49,7 +49,7 @@ let cameraTarget = new THREE.Vector3(0, 0, 0);
 
 group = new THREE.Group();
 scene.add(group);
-//===================================================== add Controls
+
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = false;
 controls.dampingFactor = 0.25;
