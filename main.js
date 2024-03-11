@@ -103,7 +103,7 @@ for (var i = 0; i < points.length; i++) {
   points[i] = new THREE.Vector3(x, z, -y);
 }
 
-//Create a path from the points
+
 var carPath = new THREE.CatmullRomCurve3(points);
 var radius = 0.25;
 
