@@ -50,7 +50,7 @@ let cameraTarget = new THREE.Vector3(0, 0, 0);
 group = new THREE.Group();
 scene.add(group);
 
-var controls = new THREE.OrbitControls(camera, renderer.domElement);
+let controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = false;
 controls.dampingFactor = 0.25;
 controls.enableZoom = true;
