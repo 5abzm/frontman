@@ -1,4 +1,4 @@
-//===================================================== full screen
+
 const  requestFullscreen = function(ele) {
   if (ele.requestFullscreen) {
     ele.requestFullscreen();
