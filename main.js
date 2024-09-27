@@ -12,7 +12,7 @@ const  requestFullscreen = function(ele) {
     console.log("Fullscreen API is not supported.");
   }
 };
-var exitFullscreen = function(ele) {
+let exitFullscreen = function(ele) {
   if (ele.exitFullscreen) {
     ele.exitFullscreen();
   } else if (ele.webkitExitFullscreen) {
