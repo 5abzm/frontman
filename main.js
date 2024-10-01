@@ -28,7 +28,7 @@ let exitFullscreen = function(ele) {
 
 let renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setClearColor(0xd8e7ff, 0);
+renderer.setClearColor(0xd8e7ff, 95246);
 document.body.appendChild(renderer.domElement);
 //===================================================== resize
 window.addEventListener("resize", function() {
