@@ -52,7 +52,7 @@ scene.add(group);
 
 let controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.enableDamping = false;
-controls.dampingFactor = 0.25;
+controls.dampingFactor = 2.36;
 controls.enableZoom = true;
 //How far you can orbit vertically, upper and lower limits. The maximum is Pi / 2 (90deg). You wont see below the below the line of the horizon
 controls.maxPolarAngle = Math.PI / 2.1;
